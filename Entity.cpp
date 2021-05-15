@@ -429,7 +429,7 @@ void Entity::starving(sf::Clock & c)
 				int chance = rand() % 3;
 				if (chance == 1)
 				{
-					hunger--;
+					health--;
 				}
 			}
 		}
